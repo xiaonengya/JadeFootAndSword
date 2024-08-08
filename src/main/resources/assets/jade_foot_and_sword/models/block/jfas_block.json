@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jade_foot_and_sword:block/jfasblock2",
+    "up": "jade_foot_and_sword:block/jfasblock2",
+    "north": "jade_foot_and_sword:block/jfasblock",
+    "east": "jade_foot_and_sword:block/jfasblock",
+    "south": "jade_foot_and_sword:block/jfasblock",
+    "west": "jade_foot_and_sword:block/jfasblock",
+    "particle": "jade_foot_and_sword:block/jfasblock"
+  },
+  "render_type": "solid"
+}

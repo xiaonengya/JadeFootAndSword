@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="jade_foot_and_sword"
+version="1.0.0"
+displayName="jade_foot_and_sword"
+displayURL="https://github.com/xiaonengya/JadeFootAndSword"
+credits="NONE"
+authors="小能, MCreator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.jade_foot_and_sword]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.117,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.jade_foot_and_sword]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+[[mixins]]
+    config="mixins.jade_foot_and_sword.json"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

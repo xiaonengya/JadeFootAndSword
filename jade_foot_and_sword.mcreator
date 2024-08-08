@@ -1,0 +1,351 @@
+{
+  "mod_elements": [
+    {
+      "name": "JfasDiamondSwordDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_diamond_sword_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasDiamondSwordDangShiTiHuiDongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JfasDiamondSword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_diamond_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfas_diamond_sword.json",
+          "src/main/java/net/xiaoneng/jadefootandsword/item/JfasDiamondSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JfaSocks",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfa_socks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfa_socks_leggings.json",
+          "src/main/java/net/xiaoneng/jadefootandsword/item/JfaSocksItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JfasDangYouJiShiTiShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_dang_you_ji_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasDangYouJiShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JfasDangShiTiShouShangShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_dang_shi_ti_shou_shang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasDangShiTiShouShangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jfas",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/entity/JfasEntity.java",
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfas_spawn_egg.json",
+          "src/main/java/net/xiaoneng/jadefootandsword/client/renderer/JfasRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "JfasXianShiTiaoJian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_xian_shi_tiao_jian",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasXianShiTiaoJianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JfasEmptyGlassCup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_empty_glass_cup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/item/JfasEmptyGlassCupItem.java",
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfas_empty_glass_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "Jfasfullglasscup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfasfullglasscup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/item/JfasfullglasscupItem.java",
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfasfullglasscup.json"
+        ]
+      }
+    },
+    {
+      "name": "JfasfullglasscupDangWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfasfullglasscup_dang_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasfullglasscupDangWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JfasItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfas_item.json",
+          "src/main/java/net/xiaoneng/jadefootandsword/item/JfasItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JfasEmptyGlassCupCompose",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_empty_glass_cup_compose",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jade_foot_and_sword/recipes/jfas_empty_glass_cup_compose.json"
+        ]
+      }
+    },
+    {
+      "name": "JfasSocksCp",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_socks_cp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jade_foot_and_sword/recipes/jfas_socks_cp.json"
+        ]
+      }
+    },
+    {
+      "name": "JfasDS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_ds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jade_foot_and_sword/recipes/jfas_ds.json"
+        ]
+      }
+    },
+    {
+      "name": "JfasBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jade_foot_and_sword/loot_tables/blocks/jfas_block.json",
+          "src/main/resources/assets/jade_foot_and_sword/models/item/jfas_block.json",
+          "src/main/java/net/xiaoneng/jadefootandsword/block/JfasBlockBlock.java",
+          "src/main/resources/assets/jade_foot_and_sword/blockstates/jfas_block.json",
+          "src/main/resources/assets/jade_foot_and_sword/models/block/jfas_block.json"
+        ]
+      }
+    },
+    {
+      "name": "JfasBlockDangYouJiFangKuaiShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_block_dang_you_ji_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xiaoneng/jadefootandsword/procedures/JfasBlockDangYouJiFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JfasBlockCp",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jfas_block_cp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jade_foot_and_sword/recipes/jfas_block_cp.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:JfasDiamondSword"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:JfaSocks.legs"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:Jfas"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.jade_foot_and_sword.jfas_diamond_sword": "Jfas Diamond Sword",
+      "entity.jade_foot_and_sword.jfas": "Jfas",
+      "item.jade_foot_and_sword.jfa_socks_leggings": "Jfa Socks",
+      "item.jade_foot_and_sword.jfasfullglasscup": "Jfasfullglasscup",
+      "item.jade_foot_and_sword.jfas_spawn_egg": "Jfas Spawn Egg",
+      "item.jade_foot_and_sword.jfas_empty_glass_cup": "Jfas Empty Glass Cup",
+      "item.jade_foot_and_sword.jfas_item": "Jfas Item",
+      "block.jade_foot_and_sword.jfas_block": "Jfas Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jade_foot_and_sword",
+    "modName": "jade_foot_and_sword",
+    "version": "1.0.0Alpha",
+    "author": "小能, MCreator",
+    "websiteURL": "https://github.com/xiaonengya/JadeFootAndSword",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "NONE",
+    "modElementsPackage": "net.xiaoneng.jadefootandsword"
+  },
+  "mcreatorVersion": 202400229712
+}

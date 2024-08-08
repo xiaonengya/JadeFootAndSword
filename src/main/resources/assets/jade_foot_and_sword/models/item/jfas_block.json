@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "jade_foot_and_sword:item/jfasblock2"
+  },
+  "render_type": "translucent"
+}

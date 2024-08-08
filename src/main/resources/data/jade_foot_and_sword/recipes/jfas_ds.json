@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "jade_foot_and_sword:jfas_item"
+    },
+    "c": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result": {
+    "id": "jade_foot_and_sword:jfas_diamond_sword",
+    "count": 1
+  }
+}

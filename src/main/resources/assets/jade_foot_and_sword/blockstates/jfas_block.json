@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jade_foot_and_sword:block/jfas_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jade_foot_and_sword:block/jfas_block"
+    },
+    "axis=z": {
+      "model": "jade_foot_and_sword:block/jfas_block",
+      "x": 90
+    }
+  }
+}

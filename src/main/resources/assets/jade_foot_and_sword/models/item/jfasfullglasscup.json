@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "jade_foot_and_sword:item/jfas_full_glass_cup"
+  }
+}
